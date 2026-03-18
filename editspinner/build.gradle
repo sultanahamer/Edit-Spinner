@@ -21,5 +21,3 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
-
-apply from: '../gradle/bintray-push.gradle'
